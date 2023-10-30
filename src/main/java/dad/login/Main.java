@@ -3,10 +3,18 @@ package dad.login;
 import dad.login.auth.AuthService;
 import dad.login.auth.FileAuthService;
 import dad.login.auth.LdapAuthService;
+import dad.mvc.vista;
+import javafx.application.Application;
 
 public class Main {
 	
 	public static void main(String[] args) throws Exception {
+		
+		
+		
+		Application.launch(vista.class, args);
+
+		
 		
 		boolean useLdap = true;
 		
